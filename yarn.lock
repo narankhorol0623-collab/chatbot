@@ -146,6 +146,46 @@
     "@babel/helper-string-parser" "^7.29.7"
     "@babel/helper-validator-identifier" "^7.29.7"
 
+"@clerk/cli-darwin-arm64@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-darwin-arm64/-/cli-darwin-arm64-1.5.0.tgz#bf73191b8e4e34547b44d6d1dfe0aea08d81bc87"
+  integrity sha512-8Ed0jRgjUIjAQh04xCafT/JBzMGeYuY4LCs37iJr5msRDfDTn5GIjkmgtGpoHLS/xQPehtqATk3OkTe+X+rY3w==
+
+"@clerk/cli-darwin-x64@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-darwin-x64/-/cli-darwin-x64-1.5.0.tgz#e3c6a3d11726e611ca1eb62de8e99015525365d0"
+  integrity sha512-UqVBwPI+cxE8PJ6ULLcR8dq0ujn2RVfMXZaZZmjUPCJO0jzZbsBZt/HN0cVWBC8XJmYJZM1CW9T2G/Zo/KfTyA==
+
+"@clerk/cli-linux-arm64-musl@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-linux-arm64-musl/-/cli-linux-arm64-musl-1.5.0.tgz#d75ce72f52394026c83791ff7b161bc947551b47"
+  integrity sha512-O1fIwjXE43zH/GFp6Qnt5Uktg3s3xIhv7b2dE3QkVbJeoBAzhTt6WJKqoDRlSBw13Zqj46NGEESK4+DkGVxhFA==
+
+"@clerk/cli-linux-arm64@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-linux-arm64/-/cli-linux-arm64-1.5.0.tgz#0e1ce8bfb829dcd2ecff376623236e09a52cba53"
+  integrity sha512-8+KXmYvRYbV1hZRod8i/0Ni6qZvmUZOhLutDtlN4lpIO0HwDbx/C2dK5pGP5xN3x30ZlyhmYBPAd6vNj7z3VYg==
+
+"@clerk/cli-linux-x64-musl@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-linux-x64-musl/-/cli-linux-x64-musl-1.5.0.tgz#ae23e09a2c1573f8be1ba769d08f4bd56abde55b"
+  integrity sha512-I0K9+3Y8KRkq5H8acUv068j2+A7DMgiEAgQh8yogz8MhLlJ2EN3dJ3ZqMY+CPj7v/yfCl8izFYm7QE25fkK83Q==
+
+"@clerk/cli-linux-x64@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-linux-x64/-/cli-linux-x64-1.5.0.tgz#41fe0194c56c83bb2e8bbbc76d7c2b5e4118ffec"
+  integrity sha512-f2CAzCjiG6BOZ2W9o2eFhtbHpPB1yV/vGqbDzYF4Gb84zpgP7ELoL4KnfqqUIaiOdjlcYtJFCIHk/34wrZiXXw==
+
+"@clerk/cli-win32-arm64@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-win32-arm64/-/cli-win32-arm64-1.5.0.tgz#cc280eb831bc62fd002119a258baa0775a3c4f4c"
+  integrity sha512-+M+6EViBJFAQc4L47IwI+vEna25LqqXzLEhugztd+fw4jWVi9ZxlCL18EJ+b5ekFZY0Y0lymOukSk/Q0BQ7uNw==
+
+"@clerk/cli-win32-x64@1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@clerk/cli-win32-x64/-/cli-win32-x64-1.5.0.tgz#5a9d45559051d839418a765b63b60a7c781e9da8"
+  integrity sha512-JXaJmhpf+j+cmuXp6jkvooNjeSs7aLRl2gs4eX1+aU9YOTx5/AgODz7xBLj7jE2HumN9URa4OzkNrY1u+yKvWw==
+
 "@emnapi/core@1.10.0", "@emnapi/core@^1.10.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@emnapi/core/-/core-1.10.0.tgz#380ccc8f2412ea22d1d972df7f8ee23a3b9c7467"
@@ -1158,6 +1198,20 @@ chalk@^4.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+clerk@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/clerk/-/clerk-1.5.0.tgz#cfb165c1246572638f2bd1dc89ee84c8a5071720"
+  integrity sha512-oVlCmlaPEXwlI64xa5xuwkl4HUjZlDIRm364F3im4EJXixisEFRuhyTwxinhGPFa8OBQyMAWGewfQQZEWYxXog==
+  optionalDependencies:
+    "@clerk/cli-darwin-arm64" "1.5.0"
+    "@clerk/cli-darwin-x64" "1.5.0"
+    "@clerk/cli-linux-arm64" "1.5.0"
+    "@clerk/cli-linux-arm64-musl" "1.5.0"
+    "@clerk/cli-linux-x64" "1.5.0"
+    "@clerk/cli-linux-x64-musl" "1.5.0"
+    "@clerk/cli-win32-arm64" "1.5.0"
+    "@clerk/cli-win32-x64" "1.5.0"
 
 client-only@0.0.1:
   version "0.0.1"
